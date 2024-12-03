@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  
+  <title>SIR NATE (PROJECT)</title>
+  
+  
+  
+<!-- CSS Documents -->
+  <style>
+  
+  
+  
+/* Cleaners */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+  
+
+
+/* Aurora Borealis Background */
+    .body, html {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-image: url(https://img.freepik.com/free-photo/panoramic-views-dubai-city-illuminated-neon-spectrum_23-2151305360.jpg?ga=GA1.1.1575274386.1726817442&semt=ais_hybrid);
+      background-attachment: fixed;
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+    }
+
+
+
+/* The Blurred Box w/ Shadow */
+     .full-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: transparent;
+      backdrop-filter: blur(40px);
+      padding: 20px 150px;
+      padding-top: 100px;
+      padding-bottom: 150px;
+      border-radius: 60px;
+      box-shadow: 15px 18px 50px 10px rgb(0,0,0,3);
+      
+    }
+
+
+  
+/* Avatar Logo */
+    .image img {
+      height: 100px;
+      width: 100px;
+      border-radius: 50px;
+      box-shadow: 10px 10px 10px rgb(0,0,0,3);
+    }
+
+
+
+/* Logo Name (ACLC Antipolo) */
+    .logo-name h2 {
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 35px;
+      text-shadow: 10px 13px 9px rgb(0,0,0,3);
+      color: white;
+      text-align: center;
+      margin: 5px;
+      padding-top: 30px;
+      margin-bottom: 80px;
+      
+    }
+
+
+
+/* All labels in the body */
+    .full-container label {
+      position: center;
+      justify-content: center;
+      color: white;
+      margin-bottom: 5px;
+    }
+
+
+
+/* All inputs in the body */
+    .full-container input {
+      padding: 5px;
+      border-radius: 5px;
+      width: 100%;
+      margin-bottom: 30px;
+      margin-top: 13px;
+      background: transparent;
+      border: none;
+      outline: none;
+      border-bottom: 2px solid #fff;
+      color: white;
+      font-size: 20px;
+    }
+
+
+
+/* Username Logo (User) */
+.first img {
+  position: absolute;
+  right: 170px;
+  top: 390px;
+  width: 22px;
+  height: 24px;
+}
+
+
+
+/* Password Logo (Lock) */
+.second img {
+  position: absolute;
+  right: 170px;
+  top: 492px;
+  width: 20px;
+  height: 25px; 
+}
+
+
+
+/* Checkbox Icon */
+    .remember input[type="checkbox"] {
+      position: relative;
+      right: 200px;
+    }
+    
+    
+    
+/* "Remember me" */
+    .remember label[for="checkbox"] {
+     position: relative;
+     bottom: 48px;
+     right: 114px;
+    }
+
+
+
+/* Button (Login) */
+    .third button {
+      position: relative;
+      bottom: 20px;
+      background: rgb(188,0,255);
+      background: linear-gradient(90deg, rgba(188,0,255,1) 0%, rgba(255,150,0,1) 50%, rgba(224,10,10,1) 100%);
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 20px;
+      font-size: 16px;
+      font-weight: 450;
+      width: 350px;
+    }
+
+
+
+/* Button Color Changer */
+.third button:active {
+  background: rgb(58,118,218);
+  background: linear-gradient(20deg, rgb(58,118,218,1) 0%, rgb(187,0,255,1) 50%, rgb(206,20,208,1) 100%);
+  transition-duration: 1s;
+}
+
+
+
+/* Forgot Password */
+.forget a {
+  position: absolute;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  bottom: 328px;
+  right: 155px;
+}
+
+
+
+/* The "Paragraph" in Register */
+.register p {
+  position: absolute;
+  bottom: 205px;
+  right: 230px;
+  color: white;
+}
+
+
+
+/* The "Register" anchor */
+.register a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+
+
+/* ACLC Power Logo */
+.aclc img {
+  position: absolute;
+  width: 80px;
+  height: 35px;
+  right: 268px;
+  bottom: 20px;
+}
+
+
+
+/* Powered by */
+.Power p {
+  color: white;
+  position: absolute;
+  left: 266px;
+  bottom: 25px;
+}
+
+
+
+  </style>
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- HTML Documents -->
+<body>
+
+
+
+<div class="full-container">
+
+
+
+  <div class="image">
+    <img src="https://static.vecteezy.com/system/resources/thumbnails/009/292/244/small_2x/default-avatar-icon-of-social-media-user-vector.jpg?fbclid=IwY2xjawGlSYdleHRuA2FlbQIxMAABHfOdwAigPQwxjACbIybeJRk7fxzNj3JbAdKTP8XRiFsITTMDb736Pgb6Jw_aem_LQb6Yw52SytoicUNXSRYZA" alt="avatar">
+  </div>
+
+
+
+<div class="logo-name">
+    <h2>ACLC ANTIPOLO</h2>
+</div>
+
+
+
+<div class="first">
+  <label for="username">Username</label>
+    <img src="https://lh3.googleusercontent.com/pw/AP1GczM3w7PjO0Q3971Wf0qqDv2EVTeuA8m7A0X7xP6U22eDnjzyfAHNIDmk_WAs-kg9BWxnsDND_z3wjZjG3LS9PguorMgAomEgn2Y-LXReBxBtYJeDd60D1seqhj4l21g-4Y3rih8xvJ2lzwkRnyoD4BY=w497-h496-s-no-gm?authuser=0">
+  <input type="text" id="username" name="username">
+</div>
+
+
+
+<div class="second">
+    <label for="password">Password</label>
+    <img src="https://lh3.googleusercontent.com/pw/AP1GczNVrLa186-DySi0vfDRMvAHH1AHQuDqsaTBl4h6QHerZ-z0hM0IhV9BJNcFbcf_Lf5s_a4b4dAdZSzMI0dIId3j6xZIQlo24w2WkWgE2VP4FLHKFRaUVshFQGrB56s_okWC3pfsfXQxWpgStzGdfSk=w303-h376-s-no-gm?authuser=0">
+    <input type="password" id="password" name="password">
+</div>
+
+
+<div class="remember">
+  <input type="checkbox">
+  <label for="checkbox">Remember me</label>
+</div>
+
+
+<div class="third">
+    <button type="submit">Login</button>
+  </div>
+  
+  
+  
+<div class="forget">
+  <a href="#">Forgot Password?</a>
+  </div>
+  
+  
+  
+<div class="register">
+  <p>Don't have an account? <a href="#">Register</a></p>
+  </div>
+  
+  
+  
+  <div class="aclc">
+    <img src="https://logodix.com/logo/1973816.png" alt="https://logodix.com/logo/1973816.png">
+  </div>
+
+
+  
+  <br><br><br><br>
+  
+  
+  
+  <div class="Power">
+    <p>Powered by</p>
+  </div>
+  
+  
+
+   </div>
+  </body>
+ </html>
